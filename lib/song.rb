@@ -14,7 +14,7 @@ class Song
   
   def artist_name
   
-#refer to self's artist -- which will call on Artist class. This is truthy if it exists. if you try to refer to the .name it won't run if nil. you just need to check if the class was made (meaning an artist was given)
+#refer to self's artist -- which will call on Artist class. This is truthy if it exists. if you try to refer to the .name it won't run if nil. you just need to check if the class was made (meaning an artist was given) THROUGH the song .. (self)
     if self.artist
       self.artist.name
     else
